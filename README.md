@@ -3,6 +3,8 @@
 This is an example application featured in my [Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world). See the tutorial for instructions on how to work with it.
 
 0*. https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-xvii-deployment-on-linux
+- https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-xxii-background-jobs  (Redis Queue)
+- https://github.com/MicrosoftArchive/redis/releases  (redis server)
 
 *1  Clone
 
@@ -21,7 +23,9 @@ In addition to the common requirements in requirements.txt, I'm going to use two
 
 (venv) $ pip install gunicorn pymysql
 
-*4.  flask  run
+*4.  Run
+- flak db init or flask db upgrade
+- flask run
 
 *5.  localhost:5000
 
